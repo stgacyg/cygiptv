@@ -1,2 +1,1 @@
-# cygiptv
-iptvipv6自动
+Auto Update IPTV in 2025-10-07 23:55:47 CST
