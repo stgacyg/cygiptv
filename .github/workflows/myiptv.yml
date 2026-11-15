@@ -126,7 +126,8 @@ jobs:
 
         rm -f kakaxiEPG.xml && wget https://epg.112114.xyz/pp.xml -O kakaxiEPG.xml
 
-        echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
+        find . -maxdepth 1 -name "*.m3u" -size 0 -delete
+
 
 
 
